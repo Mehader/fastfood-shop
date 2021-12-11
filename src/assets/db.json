@@ -7,7 +7,7 @@
       "calories": "224 ккал",
       "fats": "8,4 гр",
       "structure": "томатный соус, кура копченная, ветчина, салями, томаты, корнишоны, шампиньоны, сыр Моцарелла, сыр Пармезан",
-      "imgUrl": "../src/assets/img/catalog/pizza/11525.webp"
+      "imgUrl": "https://github.com/Mehader/fastfood-shop/blob/718490bbfce61a4d19c38fa7995f04da2ee83384/src/assets/img/catalog/pizza/11525.webp"
     },
     {"title": "ПИЦЦА ДЕРЕВЕНСКАЯ",
       "carbohydrates": "25 гр",
