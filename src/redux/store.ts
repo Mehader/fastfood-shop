@@ -1,5 +1,4 @@
 import { applyMiddleware, combineReducers, createStore } from "redux";
-import { composeWithDevTools } from "redux-devtools-extension";
 import productReducer from "./reducers/productReducer";
 import thunk from "redux-thunk";
 import { TypedUseSelectorHook, useSelector } from "react-redux";
@@ -14,10 +13,7 @@ const rootReducer = combineReducers({
   basketReducer,
 });
 
-const store = createStore(
-  rootReducer,
-  composeWithDevTools(applyMiddleware(thunk))
-);
+const store = createStore(rootReducer, applyMiddleware(thunk));
 
 type RootState = ReturnType<typeof rootReducer>;
 
