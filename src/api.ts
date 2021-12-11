@@ -15,7 +15,7 @@ export enum getQuerySort {
   "?_sort=title&_order=desc",
 }
 
-const URL = "http://localhost:3000/";
+const URL = "/";
 
 export async function getProducts(param: string) {
   let response = await axios.get<IProducts>(URL + param);
