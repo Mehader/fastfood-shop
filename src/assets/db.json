@@ -7,7 +7,7 @@
       "calories": "224 ккал",
       "fats": "8,4 гр",
       "structure": "томатный соус, кура копченая, ветчина, салями, томаты, корнишоны, шампиньоны, сыр Моцарелла, сыр Пармезан",
-      "imgUrl": "http://food-delivery.oml.ru/thumb/2/sIBG2kigJqATT7a_tnlT5Q/450r450/d/11525.jpg"
+      "imgUrl": "./img/catalog/pizza/11525.webp"
     },
     {"title": "ПИЦЦА ДЕРЕВЕНСКАЯ",
       "carbohydrates": "25 гр",
@@ -15,7 +15,7 @@
       "calories": "224 ккал",
       "fats": "8,3 гр",
       "structure": "томатный соус, лук, шампиньоны, корнишоны, томаты черри маринованные, сыр Моцарелла, сыр Пармезан",
-      "imgUrl": "http://food-delivery.oml.ru/thumb/2/IyXdCAXbxO49h3IoGCjYGQ/450r450/d/11526.jpg"
+      "imgUrl": "./img/catalog/pizza/11526.webp"
     },
     {"title": "ПИЦЦА ПАЛЕРМО",
       "carbohydrates": "22 гр",
@@ -23,42 +23,42 @@
       "calories": "222 ккал",
       "fats": "8,2 гр",
       "structure": "томатный соус, бекон, болгарский перец, сметана, яйцо, маслины, сыр Моцарелла, сыр Пармезан",
-      "imgUrl": "http://food-delivery.oml.ru/thumb/2/OpcKCAHnjCJFbl5d3r23rg/450r450/d/11527.jpg"},
+      "imgUrl": "./img/catalog/pizza/11527.webp"},
     {"title": "ПИЦЦА КАРБОНАРА",
       "carbohydrates": "24 гр",
       "squirrels": "9,9 гр",
       "calories": "224 ккал",
       "fats": "8,4 гр",
       "structure": "томатный соус, бекон, шампиньоны, томаты, красный лук, корнишоны, сыр Моцарелла, сыр Пармезан",
-      "imgUrl": "http://food-delivery.oml.ru/thumb/2/Lf_kuz_RYKYEq0cUE1i1Sw/450r450/d/11528.jpg"},
+      "imgUrl": "./img/catalog/pizza/11528.webp"},
     {"title": "ПИЦЦА ГАВАЙСКАЯ",
       "carbohydrates": "25 гр",
       "squirrels": "9,8 гр",
       "calories": "224 ккал",
       "fats": "8,3 гр",
       "structure": "томатный соус, ветчина, кура копченая, ананас консервированный, сыр Моцарелла, сыр Пармезан",
-      "imgUrl": "http://food-delivery.oml.ru/thumb/2/HYOHbq8ueZ1RgVE73IoCxA/450r450/d/11529.jpg"},
+      "imgUrl": "./img/catalog/pizza/11529.webp"},
     {"title": "ЧИКЕН ПИЦЦА",
       "carbohydrates": "22 гр",
       "squirrels": "9,7 гр",
       "calories": "222 ккал",
       "fats": "8,2 гр",
       "structure": "томатный соус, кура копченая, шампиньоны, томаты, корнишоны, сыр Моцарелла, сыр Пармезан",
-      "imgUrl": "http://food-delivery.oml.ru/thumb/2/MTf4lpHpQKRx6xCZ-1XqVw/450r450/d/11530.jpg"},
+      "imgUrl": "./img/catalog/pizza/11530.webp"},
     {"title": "ПИЦЦА САНТЬЯГО",
       "carbohydrates": "24 гр",
       "squirrels": "9,9 гр",
       "calories": "224 ккал",
       "fats": "8,4 гр",
       "structure": "томатный соус, кура копченая, шампиньоны, томаты, корнишоны, сыр Моцарелла, сыр Пармезан",
-      "imgUrl": "http://food-delivery.oml.ru/thumb/2/Qghg6_BwV9-So9g8qMFAbg/450r450/d/11531.jpg"},
+      "imgUrl": "./img/catalog/pizza/11531.webp"},
     {"title": "ПИЦЦА САЛЬМОН",
       "carbohydrates": "24 гр",
       "squirrels": "9,9 гр",
       "calories": "224 ккал",
       "fats": "8,4 гр",
       "structure": "сметана, лосось, сливочный сыр, маслины, сыр Моцарелла, сыр Пармезан",
-      "imgUrl": "http://food-delivery.oml.ru/thumb/2/AM_UqQ2o0o7CRiZXQduB4A/450r450/d/11532.jpg"}
+      "imgUrl": "./img/catalog/pizza/11532.webp"}
   ],
 
   "fastfood": [
@@ -68,56 +68,56 @@
     "calories": "507.5 ккал",
     "fats": "31.6 гр",
     "structure": "Говядина, сыр, соус, два бифштекса, листовой салат, маринованные огурчики, свежий лук, булочка с кунжутом",
-    "imgUrl": "http://food-delivery.oml.ru/thumb/2/XIZCCJVfKeJrbeXFsg-FtA/450r450/d/11524.jpg"},
+    "imgUrl": "./img/catalog/burger/11524.webp"},
     {"title": "ЛОНГ ЧИКЕН",
       "carbohydrates": "47 гр",
       "squirrels": "25.5 гр",
       "calories": "574.4 ккал",
       "fats": "31.6 гр",
       "structure": "Свинина, соус «Барбекю», листовой салат, помидоры, майонез, булочка с кунжутной посыпкой",
-      "imgUrl": "http://food-delivery.oml.ru/thumb/2/9jAM9_6ReZhRUXZcpk2MPw/450r450/d/11512.jpg"},
+      "imgUrl": "./img/catalog/burger/11512.webp"},
     {"title": "ГРИЛЬ ЧИКЕН БАРБЕКЮ",
       "carbohydrates": "62.2 гр",
       "squirrels": "27.5 гр",
       "calories": "501.2 ккал",
       "fats": "20.3 гр",
       "structure": "Свинина, соус «Барбекю», листовой салат, помидоры, майонез, поджаренный лук, булочка с кунжутной посыпкой",
-      "imgUrl": "http://food-delivery.oml.ru/thumb/2/BInEOvMldgmjMktG0HKKDw/450r450/d/11514.jpg"},
+      "imgUrl": "./img/catalog/burger/11514.webp"},
     {"title": "САЛЬСА БУРГЕР",
       "carbohydrates": "51.2 гр",
       "squirrels": "26,1 гр",
       "calories": "591.8 ккал",
       "fats": "31.4 гр",
       "structure": "Булочка, котлета баранья, томатная сальса, соус острый шпинат, картофель фри, перец холопеньо, микс салата",
-      "imgUrl": "http://food-delivery.oml.ru/thumb/2/88uV-y8Qn6ip5Nz2W8DLfA/450r450/d/11515.jpg"},
+      "imgUrl": "./img/catalog/burger/11515.webp"},
     {"title": "АППЕТИТА БУРГЕР",
       "carbohydrates": "51.2 гр",
       "squirrels": "26,1 гр",
       "calories": "26,1 гр",
       "fats": "31.4 гр",
       "structure": "Булочка, котлета баранья, бекон, яйцо, помидор, соус сырный, cсоус острый шпинат, сыр чеддер, халопеньо",
-      "imgUrl": "http://food-delivery.oml.ru/thumb/2/4AdNAVVOEFwcZz1LvM4_rA/450r450/d/11517.jpg"},
+      "imgUrl": "./img/catalog/burger/11517.webp"},
     {"title": "ЧИАБАТТА БУРГЕР",
       "carbohydrates": "51.2 гр",
       "squirrels": "26,1 гр",
       "calories": "591.8 ккал",
       "fats": "31.4 гр",
       "structure": "Баранина, помидоры, листья салата, майонез, маринованные огурцы, лук, булочка с кунжутной посыпкой",
-      "imgUrl": "http://food-delivery.oml.ru/thumb/2/_KK3RLaJHVaDK6-5CAp49g/450r450/d/11518.jpg"},
+      "imgUrl": "./img/catalog/burger/11518.webp"},
     {"title": "ЧИКЕН ФИЛЕ",
       "carbohydrates": "40 гр",
       "squirrels": "21.1 гр",
       "calories": "450.5 ккал",
       "fats": "450.5 ккал",
       "structure": "Куриная грудка, свежие овощи, майонез, булочка с кунжутной посыпкой",
-      "imgUrl": "http://food-delivery.oml.ru/thumb/2/uQWx4E35rfk1hK8wnEaPYw/450r450/d/11520.jpg"},
+      "imgUrl": "./img/catalog/burger/11520.webp"},
     {"title": "БИГ КИНГ",
       "carbohydrates": "31.7 гр",
       "squirrels": "24 гр",
       "calories": "507.5 ккал",
       "fats": "31.6 гр",
       "structure": "Говядина, сыр, соус, два бифштекса, листовой салат, маринованные огурчики, свежий лук, булочка с кунжутом",
-      "imgUrl": "http://food-delivery.oml.ru/thumb/2/OU0ZflGgzhDCPBu-1FOiDw/450r450/d/11521.jpg"}],
+      "imgUrl": "./img/catalog/burger/11521.webp"}],
 
   "sushi": [
     {"title": "БЕСТ СЕТ (10 ШТ)",
@@ -126,7 +126,7 @@
     "calories": "256 ккал",
     "fats": "13,8 гр",
     "structure": "Калифорния с крабом, дракон, сяке татаки, джусто, сяке филадельфия, сигацу, вулкан",
-    "imgUrl": "http://food-delivery.oml.ru/thumb/2/9W_T9Laa2xZBdTulMLHpNw/450r450/d/11540.jpg"
+    "imgUrl": "./img/catalog/sushi/11540.webp"
   },
     {"title": "ХАЙ СЕТ (8 ШТ)",
     "carbohydrates": "24,6 гр",
@@ -134,7 +134,7 @@
     "calories": "222 ккал",
     "fats": "9,2 гр",
     "structure": "Кани Фила, Каппа ролл, Суши томаго",
-    "imgUrl": "http://food-delivery.oml.ru/thumb/2/tOa9dbVJNycHC13UTtMqTA/450r450/d/11541.jpg"
+    "imgUrl": "./img/catalog/sushi/11541.webp"
   },
     {"title": "ФУНЕ СЕТ (12 ШТ)",
     "carbohydrates": "250,3 гр",
@@ -142,7 +142,7 @@
     "calories": "2236,6 ккал",
     "fats": "56 гр",
     "structure": "Тобико филадельфия, Кани Фила, Наруто ролл, Каппа ролл, Чипо ролл,Фила ролл, Сяке суши, Тамаго суши, Тори унаги гункан, Васабико гункан.",
-    "imgUrl": "http://food-delivery.oml.ru/thumb/2/yY8796pmWXpQVLbtQNI7Aw/450r450/d/11542.jpg"
+    "imgUrl": "./img/catalog/sushi/11542.webp"
   },
     {"title": "КАЛИФОРНИЯ ХОТ",
     "carbohydrates": "22,9 гр",
@@ -150,7 +150,7 @@
     "calories": "256 ккал",
     "fats": "13,8 гр",
     "structure": "Тёплый ролл с мясом краба, авокадо, огурцом и тобико",
-    "imgUrl": "http://food-delivery.oml.ru/thumb/2/KRl6xCHxSu5EGd8A6zHliA/450r450/d/11543.jpg"
+    "imgUrl": "./img/catalog/sushi/11543.webp"
   },
     {"title": "СЯКЭ КАЛИФОРНИЯ",
     "carbohydrates": "24,6 гр",
@@ -158,7 +158,7 @@
     "calories": "222 ккал",
     "fats": "9,2 гр",
     "structure": "С лососем, авокадо, майонезом, огурцом и тобико",
-    "imgUrl": "http://food-delivery.oml.ru/thumb/2/MfrDPjLYZZFRY8pplYZvrw/450r450/d/11544.jpg"
+    "imgUrl": "./img/catalog/sushi/11544.webp"
   },
     {"title": "КАЛИФОРНИЯ",
     "carbohydrates": "17,2 гр",
@@ -166,7 +166,7 @@
     "calories": "176 ккал",
     "fats": "8,8 гр",
     "structure": "С мясом краба, авокадо, огурцом и тобико",
-    "imgUrl": "http://food-delivery.oml.ru/thumb/2/phNdObCxi7d-NavhmLAc7Q/450r450/d/11545.jpg"
+    "imgUrl": "./img/catalog/sushi/11545.webp"
   },
     {"title": "ЯТОНАГИ РОЛЛ",
     "carbohydrates": "19,6 гр",
@@ -174,7 +174,7 @@
     "calories": "340 ккал",
     "fats": "25,3 гр",
     "structure": "Тёплый ролл с угрём и мясом краба, авокадо, огурцом, тобико и соусом \"Унаги\" под сырной шапкой",
-    "imgUrl": "http://food-delivery.oml.ru/thumb/2/fX55t1SRi1Z7joy0F6xaxg/450r450/d/11546.jpg"
+    "imgUrl": "./img/catalog/sushi/11546.webp"
   },
     {"title": "КАНИ ХОТТО",
     "carbohydrates": "18,2 гр",
@@ -182,7 +182,7 @@
     "calories": "185 ккал",
     "fats": "10,2 гр",
     "structure": "Острый ролл с мясом краба, авокадо и тобико",
-    "imgUrl": "http://food-delivery.oml.ru/thumb/2/zA4Ebm6g1xfyMg8xo10G8A/450r450/d/11547.jpg"
+    "imgUrl": "./img/catalog/sushi/11547.webp"
   }],
 
   "hotdishes": [
@@ -192,7 +192,7 @@
     "calories": "222 ккал",
     "fats": "9,2 гр",
     "structure": "бульон суймоно, лосось, мидии, кальмар, креветка, лапша Удон, водоросли вакаме, зеленый лук",
-    "imgUrl": "http://food-delivery.oml.ru/thumb/2/a-Da-sia1GyiHKPZhKL2zw/450r450/d/356985.jpg"
+    "imgUrl": "./img/catalog/hotdishes/356985.webp"
   },
     {"title": "СЫРНЫЙ СУП С УГРЕМ",
       "carbohydrates": "17,2 гр",
@@ -200,7 +200,7 @@
       "calories": "176 ккал",
       "fats": "8,8 гр",
       "structure": "угорь, сыр Гауда, сливки, укроп",
-      "imgUrl": "http://food-delivery.oml.ru/thumb/2/qEFolDDqbFtd4-8kaqNXXg/450r450/d/356995.jpg"
+      "imgUrl": "./img/catalog/hotdishes/356995.webp"
     },
     {"title": "ГРИБНОЙ КРЕМ-СУП",
       "carbohydrates": "22,9 гр",
@@ -208,7 +208,7 @@
       "calories": "256 ккал",
       "fats": "13,8 гр",
       "structure": "шампиньоны, сливки, гренки, укроп",
-      "imgUrl": "http://food-delivery.oml.ru/thumb/2/kir3Mnv_I09OdEusf4Yxng/450r450/d/356990.jpg"
+      "imgUrl": "./img/catalog/hotdishes/356990.webp"
     },
     {"title": "МОРЕПРОДУКТЫ В СЛАДКОМ СОУСЕ",
       "carbohydrates": "18,2 гр",
@@ -216,7 +216,7 @@
       "calories": "185 ккал",
       "fats": "10,2 гр",
       "structure": "креветки, кальмары, мидии, яйцо, сладкий соус",
-      "imgUrl": "http://food-delivery.oml.ru/thumb/2/LNbUOMOUh3abfx0nrwEUeA/450r450/d/356979.jpg"
+      "imgUrl": "./img/catalog/hotdishes/356979.webp"
     },
     {"title": "СВИНИНА С АРАХИСОМ В МЕДОВОМ СОУСЕ",
       "carbohydrates": "22,9 гр",
@@ -224,6 +224,6 @@
       "calories": "256 ккал",
       "fats": "13,8 гр",
       "structure": "свинина, арахис, перец болгарский, имбирь, медовый соус",
-      "imgUrl": "http://food-delivery.oml.ru/thumb/2/qsYnsBUf_9NgZF7i9JMMQg/450r450/d/layer-125.jpg"
+      "imgUrl": "./img/catalog/hotdishes/layer-125.webp"
     }]
 }
