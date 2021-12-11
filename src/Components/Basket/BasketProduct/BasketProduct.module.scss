@@ -1,0 +1,92 @@
+@import "../../../variable";
+
+.itemBox {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 0.5fr 0.5fr;
+  padding: 0 20px 20px 20px;
+  align-items: center;
+  @media (max-width: $media-phone) {
+    font-size: 12px;
+    padding: 0 15px 0 0;
+  }
+}
+
+.boxProduct {
+  display: flex;
+  align-items: center;
+}
+
+.linkProd {
+  color: $color-text;
+  text-decoration: none;
+  &:hover {
+    color: $color-btn-red;
+  }
+}
+
+.imgProduct {
+  width: 100px;
+  height: 100px;
+  @media (max-width: $media-phone) {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.titleProduct {
+  margin-left: 10px;
+}
+
+.priceProduct {
+}
+
+.totalProduct {
+}
+
+.removeProduct {
+  padding-left: 30px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  @media (max-width: $media-phone) {
+    padding-left: 20px;
+  }
+}
+
+.counterProduct {
+  font-size: 22px;
+  font-weight: 500;
+  @media (max-width: $media-phone) {
+    font-size: 15px;
+  }
+}
+
+.counterPlus {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+  font-weight: 300;
+  cursor: pointer;
+  @media (max-width: $media-phone) {
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+  }
+}
+
+.counterMines {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  font-size: 33px;
+  font-weight: 300;
+  cursor: pointer;
+  @media (max-width: $media-phone) {
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+  }
+}

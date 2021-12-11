@@ -1,0 +1,86 @@
+@import "../../../variable";
+
+.productItem {
+  width: 100%;
+  max-width: 328px;
+  height: 560px;
+  position: relative;
+  @media (max-width: $media-tablet) {
+    width: 290px;
+    height: 460px;
+  }
+}
+
+.img {
+  width: 100%;
+  height: 328px;
+  @media (max-width: $media-tablet) {
+    height: 280px;
+  }
+}
+
+.title {
+  font-size: 16px;
+  color: $color-text;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 500;
+  color: $color-text-opacity;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 24px;
+  color: $color-text;
+  font-weight: 700;
+  @media (max-width: $media-tablet) {
+    font-size: 20px;
+  }
+}
+
+.btnAddBasket {
+  color: $color-text-white;
+  border: none;
+  background-color: $color-btn-red;
+  border-radius: $br-btn;
+  padding: 20px 40px 20px 40px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+  &:hover {
+    background-color: $color-btn-hover;
+  }
+  @media (max-width: $media-tablet) {
+    padding: 15px 35px 15px 35px;
+    font-size: 14px;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.addProdText {
+  font-size: 14px;
+  color: $color-text-opacity;
+  & > a:hover {
+    color: $color-btn-hover;
+  }
+  @media (max-width: $media-tablet) {
+    padding-top: 5px;
+    font-size: 12px;
+  }
+}

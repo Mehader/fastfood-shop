@@ -1,0 +1,159 @@
+@import "../../variable";
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  height: 110px;
+  @media (max-width: $media-tablet) {
+    height: 90px;
+  }
+  @media (max-width: $media-tablet-small) {
+    height: 70px;
+  }
+}
+
+.linkCompanyName {
+  text-decoration: none;
+}
+
+.nameCompany {
+  &_text {
+    &__big {
+      font-size: 25px;
+      color: $color-text;
+      padding-bottom: 5px;
+      @media (max-width: $media-tablet-small) {
+        font-size: 22px;
+        padding-bottom: 0px;
+      }
+    }
+    &__small {
+      font-size: 16px;
+      color: $color-text-opacity;
+      @media (max-width: $media-tablet-small) {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.searchBox {
+  position: relative;
+  @media (max-width: $media-phone) {
+    display: none;
+  }
+}
+
+.search {
+  width: 350px;
+  height: 50px;
+  padding: 5px;
+  border: 1px solid $border-gray;
+  border-radius: $br-btn 0 0 $br-btn;
+  font-size: 15px;
+  color: $color-text-opacity;
+  &:focus {
+    border: 1px solid $border-red;
+    outline: none;
+  }
+  @media (max-width: $media-tablet) {
+    height: 40px;
+    width: 300px;
+  }
+  @media (max-width: $media-tablet-small) {
+    height: 30px;
+    width: 200px;
+    font-size: 13px;
+  }
+}
+
+.btn {
+  width: 90px;
+  height: 50px;
+  border: 0;
+  border-radius: 0 $br-btn $br-btn 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: $color-text-white;
+  background-color: $color-btn-red;
+  @media (max-width: $media-tablet) {
+    width: 90px;
+    height: 40px;
+  }
+  @media (max-width: $media-tablet-small) {
+    height: 30px;
+    width: 70px;
+    font-size: 14px;
+  }
+}
+
+.resultSearchBox {
+  width: 100%;
+  max-width: 438px;
+  height: auto;
+  position: absolute;
+  top: 47px;
+  background-color: white;
+  border-radius: 0 0 $br-btn $br-btn;
+  border: 1px solid $border-red;
+  & > ul {
+    padding-left: 10px;
+    & > li {
+      color: $color-text-opacity;
+      margin-bottom: 10px;
+      & > a {
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: $color-text;
+        font-size: 16px;
+        &:hover {
+          color: $color-text-red;
+        }
+        & > span {
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+}
+
+.workTime {
+  display: flex;
+  align-items: center;
+}
+
+.iconPhone {
+  width: 21px;
+  height: 21px;
+  margin-right: 20px;
+}
+
+.timeBox {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.timeText {
+  font-weight: 300;
+  @media (max-width: $media-tablet-small) {
+    font-size: 14px;
+  }
+}
+
+.numberText {
+  font-weight: 700;
+  @media (max-width: $media-tablet-small) {
+    font-size: 14px;
+  }
+}
+
+.callLink {
+  font-weight: 300;
+  color: $color-text-red;
+}

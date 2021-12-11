@@ -1,0 +1,11 @@
+export { default as Basket } from "./Basket/Basket";
+export { default as BasketProduct } from "./Basket/BasketProduct/BasketProduct";
+export { default as Footer } from "./Footer/Footer";
+export { default as Header } from "./Header/Header";
+export { default as Home } from "./Layout/Home";
+export { default as Loading } from "./Loading/Loading";
+export { default as Menu } from "./Menu/Menu";
+export { default as Product } from "./Product/Product";
+export { default as ProductCard } from "./Product/ProductCard/ProductCart";
+export { default as ProductItem } from "./Product/ProductItem/ProductItem";
+export { default as Slider } from "./Slider/Slider";

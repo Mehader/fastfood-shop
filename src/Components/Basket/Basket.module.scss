@@ -1,0 +1,78 @@
+@import "../../variable";
+
+.basket {
+  min-height: 100vh;
+}
+
+.wrapper {
+  height: 60vh;
+  overflow: auto;
+  @media (max-width: $media-phone) {
+    height: 50vh;
+  }
+}
+
+.emptyBasketBox {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  @media (max-width: $media-phone) {
+    font-size: 12px;
+  }
+}
+
+.headerTable {
+  height: 40px;
+  padding: 0 20px 0 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 0.5fr 0.5fr;
+  align-items: center;
+  color: $color-text-white;
+  background-color: $bg-red;
+  border-radius: $br-btn;
+  @media (max-width: $media-tablet-small) {
+    grid-template-columns: 2fr 1fr 1fr 0.7fr 0.3fr;
+    font-size: 10px;
+    padding: 0 5px 0 5px;
+  }
+}
+
+.titleTable {
+}
+
+.boxTotalBasket {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  padding: 20px 20px 0 20px;
+  border-top: 3px dashed red;
+  @media (max-width: $media-phone) {
+    grid-template-columns: 1fr 1fr 1fr 5fr;
+    padding: 20px 0 0 20px;
+  }
+}
+
+.btnClear {
+  height: 20px;
+  transition: 0.6s;
+  cursor: pointer;
+  width: 150px;
+  &:hover {
+    color: $color-text-red;
+  }
+  @media (max-width: $media-phone) {
+    font-size: 15px;
+  }
+}
+
+.totalSum {
+  font-size: 40px;
+  @media (max-width: $media-phone) {
+    font-size: 25px;
+    justify-items: right;
+  }
+}

@@ -1,0 +1,90 @@
+@import "../../variable";
+
+.slider {
+  margin-bottom: 100px;
+  @media (max-width: $media-tablet) {
+    margin-bottom: 50px;
+  }
+}
+
+.sliderBox {
+  height: 680px;
+  @media (max-width: $media-tablet) {
+    height: 400px;
+  }
+  @media (max-width: $media-tablet-small) {
+    height: 300px;
+  }
+}
+
+.sliderItem {
+  padding-top: 20px;
+  height: 100%;
+  background: center no-repeat;
+  background-size: cover;
+}
+
+.counterBox {
+  width: 156px;
+  height: 60px;
+  padding: 0 10px 0 10px;
+  border-radius: $br-btn;
+  position: absolute;
+  inset: auto 0% 0% auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $bg-white;
+  @media (max-width: $media-tablet) {
+    width: 100px;
+    height: 40px;
+    inset: auto 5% 5% auto;
+  }
+}
+
+.counter {
+  font-size: 30px;
+  font-weight: 700;
+  color: $color-text;
+  &__red {
+    color: red;
+    font-size: 35px;
+    @media (max-width: $media-tablet) {
+      font-size: 25px;
+    }
+  }
+  @media (max-width: $media-tablet) {
+    font-size: 20px;
+  }
+}
+
+.arrowBtn {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  @media (max-width: $media-tablet) {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.arrowIconRight {
+  transform: rotate(-90deg);
+  width: inherit;
+  height: inherit;
+}
+.arrowIconLeft {
+  transform: rotate(90deg);
+  width: inherit;
+  height: inherit;
+}
+
+.wrapperCounter {
+  height: 70%;
+  margin: auto;
+  max-width: 1400px;
+  position: relative;
+}
