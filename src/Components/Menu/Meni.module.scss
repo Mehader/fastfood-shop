@@ -56,7 +56,7 @@ li {
       z-index: 20;
       overflow: hidden;
       border-radius: $br-btn;
-      transition: 0.5s;
+      transition: 0.2s;
       & > li {
         padding-bottom: 5px;
       }
@@ -140,7 +140,7 @@ li {
     display: block;
     position: absolute;
     top: 15px;
-    left: 5px;
+    left: 15px;
     background-image: url(../../assets/img/menu-open.svg);
     background-size: cover;
   }

@@ -1,4 +1,4 @@
-import React, { FC, useState } from "react";
+import React, {FC, RefObject, useEffect, useRef, useState} from "react";
 import style from "./Meni.module.scss";
 import basketIcon from "../../assets/img/basket-icon.svg";
 import sprite from "../../assets/img/social/social.svg";
@@ -13,8 +13,32 @@ const Menu: FC = () => {
   const { menu, arrMenuItem } = useAppSelector((state) => state.menuReducer);
   const { counter, sum } = useAppSelector((state) => state.basketReducer);
 
+  const menuRef = useRef(null)
+
+
+  const close = (e: MouseEvent) => {
+    if (e.target !== menuRef.current) {
+      setMenuOpen(false)
+      console.log("sdf")
+      document.removeEventListener("click", close)
+
+    }
+  }
+
+  const closeMenu = () => {
+    if (menuOpen !== false) {
+      document.addEventListener("click", close)
+    }
+
+  }
+
+useEffect(()=>{
+closeMenu()
+}, [menuOpen])
+
+
   return (
-    <div className={style.menu}>
+    <div ref={menuRef} className={style.menu}>
       <div className="container">
         <nav className={style.menuBox}>
           <div className={style.socialBox}>

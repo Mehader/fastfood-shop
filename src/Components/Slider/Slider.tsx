@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import style from "./Slider.module.scss";
 import { Menu } from "../";
 import arrow from "../../assets/img/arrow.svg";
@@ -14,6 +14,8 @@ const Slider = () => {
   const menu = useAppSelector((state) => state.menuReducer.menu);
   const arrImgSlider: string[] = [slider1, slider3, slider4, slider5];
   const dispatch = useDispatch();
+
+
 
   return (
     <div className={style.slider}>
