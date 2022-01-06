@@ -41,12 +41,12 @@ const Product: FC = () => {
           <h1>{arrMenuItem[menu]}</h1>
 
           <div
-            ref={sortRef}
+
             onClick={() => handleSortBox()}
             className={sort ? style.boxSort : style.boxSort__show}
           >
             <div>Сортировка по:</div>
-            <div className={style.sortBoxLabel}>
+            <div ref={sortRef} className={style.sortBoxLabel}>
               <div className={style.sort}>{arrSortItem[sortItem]}</div>
               <ul>
                 {arrSortItem.map((el: string, index: number) => (

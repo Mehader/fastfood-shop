@@ -2,9 +2,11 @@
 
 .productCart {
   height: 100vh;
+  margin-top: 40px;
   @media (max-width: $media-phone) {
     flex-direction: column;
     height: auto;
+
   }
 }
 

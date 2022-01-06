@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 import style from "./Slider.module.scss";
 import { Menu } from "../";
 import arrow from "../../assets/img/arrow.svg";
@@ -11,6 +11,7 @@ import { useDispatch } from "react-redux";
 import { menuAC } from "../../redux/actions/menuAction";
 
 const Slider = () => {
+
   const menu = useAppSelector((state) => state.menuReducer.menu);
   const arrImgSlider: string[] = [slider1, slider3, slider4, slider5];
   const dispatch = useDispatch();
@@ -21,11 +22,10 @@ const Slider = () => {
     <div className={style.slider}>
       <div className={style.sliderBox}>
         <div
-          style={{
-            backgroundImage: `url(${arrImgSlider[menu]})`,
-          }}
+          style={{backgroundImage: `url(${arrImgSlider[menu]})`}}
           className={style.sliderItem}
         >
+
           <Menu />
           <div className={style.wrapperCounter}>
             <div className={style.counterBox}>

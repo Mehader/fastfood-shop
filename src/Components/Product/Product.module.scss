@@ -84,11 +84,13 @@ h1 {
 
 .sortBoxLabel {
   padding-left: 10px;
+  height: 30px;
+  cursor: pointer;
   & > ul {
-    margin: 3px 0 3px 0;
+    margin: 10px 0 3px 0;
     padding: 0px;
     & > li {
-      cursor: pointer;
+
       &:hover {
         color: $color-text-red;
       }
