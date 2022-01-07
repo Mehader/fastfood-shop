@@ -45,7 +45,7 @@ const Product: FC = () => {
             onClick={() => handleSortBox()}
             className={sort ? style.boxSort : style.boxSort__show}
           >
-            <div>Сортировка по:</div>
+            <div>Сортировка:</div>
             <div ref={sortRef} className={style.sortBoxLabel}>
               <div className={style.sort}>{arrSortItem[sortItem]}</div>
               <ul>
