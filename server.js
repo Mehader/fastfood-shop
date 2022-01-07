@@ -1,17 +1,21 @@
 const jsonServer = require('json-server');
 const server = jsonServer.create();
 const router = jsonServer.router('./public/db.json');
+const path = require("path");
+
 const middlewares = jsonServer.defaults({
-  static: './build',
+  static: "build",
 });
 
 const PORT = process.env.PORT || 3001;
 
+server.get("/cart", (req, res) => res.sendFile(__dirname + "/build/index.html"))
+server.get("/product/fastfood/*", (req, res) => res.sendFile(__dirname + "/build/index.html"))
+
+
 server.use(middlewares);
 server.use(router);
-server.get("/*", function (req, res) {
-  res.sendFile(path.join(__dirname, "build", "index.html"));
-});
+
 
 server.listen(PORT, () => {
   console.log('Server is running');

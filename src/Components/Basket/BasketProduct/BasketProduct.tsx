@@ -37,7 +37,7 @@ const BasketProduct: FC<IBasketItem> = ({
       <div className={style.priceProduct}>{price} руб.</div>
       <div>
         <button
-          disabled={count == 1 ? true : false}
+          disabled={count === 1 ? true : false}
           onClick={() => dispatch(delInBasketAC(obj))}
           className={style.counterMines}
         >

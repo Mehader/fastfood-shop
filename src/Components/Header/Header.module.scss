@@ -43,6 +43,7 @@
 }
 
 .searchBox {
+  z-index: 100;
   position: relative;
   @media (max-width: $media-phone) {
     display: none;

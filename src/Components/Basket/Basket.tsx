@@ -24,7 +24,7 @@ const Basket = () => {
           <div className={style.titleTable}>Сумма</div>
           <div className={style.titleTable}>Удалить</div>
         </div>
-        {sum == 0 ? (
+        {sum === 0 ? (
           <div className={style.emptyBasketBox}>
             В корзине пусто <Link to="/">вернуться на главную страницу</Link>
           </div>
@@ -46,7 +46,7 @@ const Basket = () => {
           </div>
         )}
         <div className={style.boxTotalBasket}>
-          {sum == 0 ? (
+          {sum === 0 ? (
             <div></div>
           ) : (
             <div
